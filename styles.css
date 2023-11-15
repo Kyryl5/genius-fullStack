@@ -1,0 +1,122 @@
+:root {
+  --white: #fff;
+  --main-blue: #011C44;
+  --main-light-blue: #2B7FFF;
+  --secondary-grey: #4A4A4A;
+  --secondary-light-grey: #747272;
+  --secondary-blue: #011F4A;
+  --secondary-yellow: #FFD02B;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: var(--main-blue);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: var(--main-light-blue);
+  font-weight: 700;
+}
+header {
+  font-size: 18px;
+}
+h1 {
+  color: var(--main-light-blue);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: 'Play', sans-serif;
+  font-size: 140px;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+button {
+  color: var(--white);
+  background-color: var(--main-light-blue);
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 32px;
+}
+button:hover {
+  cursor: pointer;
+}
+.hero p {
+  font-size: 12px;
+  font-weight: 400;
+}
+.about h1 {
+  text-transform: none;
+  color: inherit;
+}
+.about h1 span {
+  text-transform: none;
+  text-transform: capitalize;
+  color: var(--main-light-blue);
+}
+.about p {
+  font-size: 22px;
+  font-weight: 400;
+}
+.about h1 {
+  font-size: 64px;
+}
+.bold-text {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.advantages h2, .location h2{
+  font-weight: 700;
+  font-family: 'Play', sans-serif;
+  font-size: 64px;    
+}
+.advantages span, .location span {
+  color: var(--main-light-blue);   
+}
+.advantages p {
+  color: black; 
+  font-size: 18px;  
+  font-weight: 400;
+}
+form {
+  background-color: var(--main-blue);
+  border-radius: 32px;
+  color: var(--white)
+}
+form h3 {
+  font-weight: 600;
+  font-size: 22px;
+}
+.location {
+  color: var(--white);
+}
+.location h2{
+  color: var(--secondary-blue);
+}
+
+.location p {
+  color: var(--secondary-light-grey);
+}
+.location a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer {
+  color: var(--white);
+  background-color: var(--main-blue);
+}
+footer p{
+  font-size: 12px;
+  color: var(--secondary-light-grey);
+}
